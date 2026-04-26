@@ -30,6 +30,12 @@ CREATE TABLE [dbo].[retail_sales](
 	[total_sale] [smallint] NULL,
  CONSTRAINT [PK_retail_sales] PRIMARY KEY CLUSTERED 
 ```
+#### 1. Data Cleaning
+
+```sql
+
+```
+
 
 
 
