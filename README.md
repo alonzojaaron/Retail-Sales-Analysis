@@ -508,7 +508,7 @@ WHERE ranking = 1
 ```
 Customer preferences vary significantly across demographics. Clothing is the dominant category for most groups, especially females aged 40+ and males aged 20–40, making it the most universally preferred product. However, Electronics leads among younger females and older males (50+), indicating strong tech-oriented demand in these segments. Beauty is more niche, appearing as the top choice mainly among young males and some younger females.
 
-### 4. Summary
+### Summary
 Overall, the retail analysis shows that sales performance is strongly influenced by seasonality, customer concentration, and time-based buying behavior. While revenue remains relatively stable year-over-year, growth is limited and heavily driven by peak periods and a small group of high-value customers. Category performance is mixed, with some generating high revenue but lower margins, indicating opportunities to improve profitability through better pricing and cost strategies.
 
 **Key Insights:**
