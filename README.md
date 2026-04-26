@@ -82,8 +82,8 @@ WHERE
 #### 3. Business Analysis
 Analyze sales performance and profitability across different dimensions such as product categories, customer segments, and time trends to generate actionable business insights for decision-making.  
 
-#### 3.1. Revenue and Sales Performance
-**1. What is the total revenue and sales trend over time (daily, monthly, yearly)?**  
+##### 3.1. Revenue and Sales Performance
+###### 1. What is the total revenue and sales trend over time (daily, monthly, yearly)? ######
 ```sql
 -- a. Daily
 SELECT
