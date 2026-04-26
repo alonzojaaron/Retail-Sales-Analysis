@@ -31,9 +31,53 @@ CREATE TABLE [dbo].[retail_sales](
  CONSTRAINT [PK_retail_sales] PRIMARY KEY CLUSTERED 
 ```
 #### 1. Data Cleaning
+Identify and remove data quality issues such as duplicate records and missing values to ensure the dataset is accurate, consistent, and reliable for analysis.
 
 ```sql
+-- 1. Check duplicate transactions
+SELECT
+    transactions_id,
+    COUNT(*) AS duplicate_count
+FROM retail_sales
+GROUP BY transactions_id
+HAVING COUNT(*) > 1;
 
+--2. Check null values
+SELECT *
+FROM retail_sales
+WHERE
+	transactions_id IS NULL
+	OR
+	sale_date IS NULL
+	OR
+	sale_time IS NULL
+	OR
+	gender IS NULL
+	OR
+	category IS NULL
+	OR
+	quantity IS NULL
+	OR
+	cogs IS NULL
+	OR total_sale IS NULL;
+
+-- 3. Delete null values
+DELETE FROM retail_sales
+WHERE
+	transactions_id IS NULL
+	OR
+	sale_date IS NULL
+	OR
+	sale_time IS NULL
+	OR
+	gender IS NULL
+	OR
+	category IS NULL
+	OR
+	quantity IS NULL
+	OR
+	cogs IS NULL
+	OR total_sale IS NULL;
 ```
 
 
