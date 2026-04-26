@@ -11,4 +11,7 @@ This Retail Sales Analysis project uses SQL to evaluate sales performance, profi
 3. **Conduct exploratory data analysis** – Explore the dataset to understand patterns, trends, and key metrics.
 4. **Perform business analysis to generate insights** – Analyze results to uncover actionable insights for decision-making.
 
+## Project Structure
+#### 1. Database Setup
+
 
