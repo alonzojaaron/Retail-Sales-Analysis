@@ -13,5 +13,8 @@ This Retail Sales Analysis project uses SQL to evaluate sales performance, profi
 
 ## Project Structure
 #### 1. Database Setup
+Initialize the retail sales database and define the core table structure to store transactional data, including customer details, product categories, pricing, cost (COGS), and total sales, ensuring proper data types and a primary key for data integrity.
+<img width="725" height="292" alt="image" src="https://github.com/user-attachments/assets/28def0ed-f83a-4464-8565-4760e9e93ecf" />
+
 
 
