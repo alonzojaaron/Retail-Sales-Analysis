@@ -15,22 +15,21 @@ This Retail Sales Analysis project uses SQL to evaluate sales performance, profi
 #### 1. Database Setup
 Initialize the retail sales database and define the core table structure to store transactional data, including customer details, product categories, pricing, cost (COGS), and total sales, ensuring proper data types and a primary key for data integrity.
 
-CREATE DATABASE p1_retail_db;
-
-CREATE TABLE retail_sales
-(
-    transactions_id INT PRIMARY KEY,
-    sale_date DATE,	
-    sale_time TIME,
-    customer_id INT,	
-    gender VARCHAR(10),
-    age INT,
-    category VARCHAR(35),
-    quantity INT,
-    price_per_unit FLOAT,	
-    cogs FLOAT,
-    total_sale FLOAT
-);
+```sql
+CREATE TABLE [dbo].[retail_sales](
+	[transactions_id] [smallint] NOT NULL,
+	[sale_date] [date] NOT NULL,
+	[sale_time] [time](7) NOT NULL,
+	[customer_id] [tinyint] NOT NULL,
+	[gender] [nvarchar](50) NOT NULL,
+	[age] [tinyint] NULL,
+	[category] [nvarchar](50) NOT NULL,
+	[quantity] [tinyint] NULL,
+	[price_per_unit] [smallint] NULL,
+	[cogs] [float] NULL,
+	[total_sale] [smallint] NULL,
+ CONSTRAINT [PK_retail_sales] PRIMARY KEY CLUSTERED 
+```
 
 
 
